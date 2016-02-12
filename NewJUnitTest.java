@@ -39,7 +39,7 @@ public class NewEmptyJUnitTest {
     
     @Test
      public void test1() {
-    assertEquals(new int[][] {{2,2},{2,2}},Lib.iterative1(new int[][] {{1,1},{1,1}},new int[][] {{1,1},{1,1}}));
+    assertEquals(new int[][] {{2,2},{2,2}},Lib.iterative(new int[][] {{1,1},{1,1}},new int[][] {{1,1},{1,1}}));
   }
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
